@@ -4,6 +4,7 @@ import Play from "./components/Play";
 import Game from "./components/Game";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
+import ContractInteraction from "./components/ContractInteraction";
 
 function App() {
   const [myChoice, setMyChoice] = useState("");
@@ -22,8 +23,9 @@ function App() {
             }
           />
         </Routes>
+        <ContractInteraction score={score} />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

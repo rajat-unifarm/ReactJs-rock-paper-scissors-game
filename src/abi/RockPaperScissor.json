@@ -1,0 +1,81 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "RockPaperScissor",
+  "sourceName": "contracts/apps/RockPaperScissor.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "player",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "points",
+          "type": "uint256"
+        }
+      ],
+      "name": "ScoresUpdated",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "player",
+          "type": "address"
+        }
+      ],
+      "name": "getPlayerHighestScore",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "playerHighestScore",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "points",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateScore",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5061017c806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063137e7aa414610046578063823e7eff14610078578063f853e34d146100a1575b600080fd5b6100666100543660046100fd565b60006020819052908152604090205481565b60405190815260200160405180910390f35b6100666100863660046100fd565b6001600160a01b031660009081526020819052604090205490565b6100b46100af36600461012d565b6100b6565b005b336000818152602081815260409182902084905590518381527fcd594d718027767febee564a6587a8359b717d50b948ff79cfb62e96889363a0910160405180910390a250565b60006020828403121561010f57600080fd5b81356001600160a01b038116811461012657600080fd5b9392505050565b60006020828403121561013f57600080fd5b503591905056fea264697066735822122061a4de1654aa8aeb7f8960d9516a25daaa65bb1b5c36ce8b6a3b9e82bb57c91464736f6c63430008120033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063137e7aa414610046578063823e7eff14610078578063f853e34d146100a1575b600080fd5b6100666100543660046100fd565b60006020819052908152604090205481565b60405190815260200160405180910390f35b6100666100863660046100fd565b6001600160a01b031660009081526020819052604090205490565b6100b46100af36600461012d565b6100b6565b005b336000818152602081815260409182902084905590518381527fcd594d718027767febee564a6587a8359b717d50b948ff79cfb62e96889363a0910160405180910390a250565b60006020828403121561010f57600080fd5b81356001600160a01b038116811461012657600080fd5b9392505050565b60006020828403121561013f57600080fd5b503591905056fea264697066735822122061a4de1654aa8aeb7f8960d9516a25daaa65bb1b5c36ce8b6a3b9e82bb57c91464736f6c63430008120033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
